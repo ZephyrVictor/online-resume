@@ -1,0 +1,262 @@
+meta:
+  direction: ltr            # text direction, "ltr" (like English) or "rtl" (like Arabic), default is "ltr"
+  language: cn             # text language, the value is HTML lang attribute value, default is "en"
+
+basic:
+  name: 冯镜维                      # name
+  title: 网络安全         # job title 
+  avatar:
+    show: true                       # show or hide avatar
+    path: /assets/images/profile.jpg # file path or link to your avatar
+
+contact:
+  location: Harbin, China  # location, text or markdown link syntax
+  email: 2022111915@stu.hit.edu.cn     # email address
+  phone: +86-130-0973-0974  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  website: zephyr369.online     # site link without schema, like example.com, will automatically prepend "https://"
+           # gender or pronoun
+  birthday:      2004.04           # birthday
+
+  # ! Do not paste the link directly.
+  # Please copy the <> part of the comment in the link to your profile on the relevant site and paste it here.
+
+  # programming
+  github:                   # https://github.com/<username>
+  gitlab:                   # https://gitlab.com/<username>
+  bitbucket:                # https://bitbucket.com/<username>
+  git:                      # selfhost git site link without schema "https://"
+  leetcode:                 # https://leetcode.com/<username>
+  codeforces:               # https://codeforces.com/profile/<username>
+  codewars:                 # https://www.codewars.com/users/<username>
+  topcoder:                 # https://profiles.topcoder.com/<username>
+  huggingface:              # https://huggingface.co/<username>
+  codepen:                  # https://codepen.io/<username>
+  tryhackme:                # https://tryhackme.com/p/<username>
+
+  # research
+  googlescholar:            # https://scholar.google.com/citations?user=<username>
+  researchgate:             # https://www.researchgate.net/profile/<username>
+  orcid:                    # https://orcid.org/<id>
+  figshare:                 # https://figshare.com/authors/<name/id>
+  kaggle:                   # https://www.kaggle.com/<username>
+
+  # writing
+  medium:                   # https://medium.com/@<username>
+  wordpress:                # https://<username>.wordpress.com
+  blogger:                  # https://<username>.blogspot.com
+  devto:                    # https://dev.to/<username>
+
+  # creativity
+  figma:                    # https://www.figma.com/@<username>
+  behance:                  # https://www.behance.net/<username>
+  dribbble:                 # https://dribbble.com/<username>
+  artstation:               # https://www.artstation.com/<username>
+  pixiv:                    # https://www.pixiv.net/users/<id>
+  pinterest:                # https://www.pinterest.com/<username>
+  producthunt:              # https://www.producthunt.com/@<username>
+
+  # cv
+  linkedin:                 # https://linkedin.com/in/<username>
+  indeed:                   # https://my.indeed.com/p/<id>
+  xing:                     # https://www.xing.com/profile/<username>
+  fiverr:                   # https://www.fiverr.com/<username>
+  freelancer:               # https://www.freelancer.com/u/<username>
+
+  # chat
+  wechat:                   # wechat id, text or markdown link syntax
+  whatsapp:                 # https://wa.me/<number>
+  telegram:                 # https://t.me/<username>
+  messenger:                # https://m.me/<username>
+  line:                     # https://line.me/R/ti/p/@<lineid>
+  viber:                    # https://vb.me/<username>
+  threema:                  # https://threema.id/<userid>
+  signal:                   # signal username, text or markdown link syntax
+  wire:                     # wire username, text or markdown link syntax
+
+  # social
+  stackoverflow:            # https://stackoverflow.com/users/<id>
+  stackexchange:            # https://stackexchange.com/users/<id>
+  quora:                    # https://www.quora.com/profile/<username>
+  zhihu:                    # https://www.zhihu.com/people/<username>
+  goodreads:                # https://www.goodreads.com/user/show/<username>
+  strava:                   # https://www.strava.com/athletes/<id>
+  wikipedia:                # https://www.wikipedia.org/wiki/User:<username>
+  twitter:                  # https://twitter.com/<username>
+  x:                        # https://x.com/<username>
+  mastodon:                 # text, the format must be like "username@yourserver.com"
+  threads:                  # https://www.threads.net/@<username>
+  vk:                       # https://vk.com/<username>
+  weibo:                    # weibo username, text or markdown link syntax
+  instagram:                # https://instagram.com/<username>
+  unsplash:                 # https://unsplash.com/@<username>
+  _500px:                   # https://500px.com/p/<username>
+  youtube:                  # https://www.youtube.com/@<username>
+  tiktok:                   # https://www.tiktok.com/@<username>
+  snapchat:                 # https://www.snapchat.com/add/<username>
+  twitch:                   # https://www.twitch.tv/<username>
+
+profile:
+  show: true
+  order: 7
+  title: 个人陈述
+  description: |
+    本人是校 Lilac 战队成员，参与国内多场知名CTF赛事和护网测试行动。主要方向为 Pwn & Reverse, 有一定IoT设备分析经历，主
+    要编程语言为 Python & C++。擅长网络与计算机系统相关领域。自去年起为学校网络中心挖掘校内漏洞，并维护部分网站。能够熟练使用
+    MYSQL等数据库和其他中间件，熟悉使用Git作为版本工具、团队代码开发合作。爱好广泛，学理论基础扎实，做事
+    严谨认真，乐于学习新知，对知识和技术充满热情，富有团队合作精神与组织能力，品行端正有爱心，
+    对于二进制及有关计算机系统安全方向尤为感兴趣。
+  
+
+project:
+  show: true
+  order: 4
+  title: 项目经历
+
+  items:
+    - name: 哈工大大一年度项目“基于树莓派的智能分拣机械臂”
+      tags: 一等奖
+      date: 2022.08 - 2023.08
+      role: 项目主要负责人
+      description: |
+        在大一入学时开始进行的大一年度项目，主要负责 Python-OpenCV 视觉识别代码编写。
+
+    - name: 数据驱动的轨道车巡检系统
+      tags: 二等奖
+      date: 2023.08 - 2024.04
+      role: 项目成员
+      description: |
+        在项目过程中了解并掌握了前后端开发基本逻辑和 PyTorch 框架的使用方法。  
+        采用 LSTM 网络和 GRU 集成学习，对仓库存储 RGV 轨道车的 IMU 数据进行分析，以确保生产环境安全。
+
+    - name: 基于四旋翼无人机的户外巡检系统
+      tags: 国家级大学生创新训练项目
+      date: 2023.08 - 2024.10
+      role: 项目主要负责人
+      description: |
+        负责机载电脑 JetsonNano 的 ROS1 系统及 SLAM 算法维护，并负责无人机通信模块的设计。
+
+    - name: 可信在线二手交易平台
+      tags: 专业优秀实践项目
+      date: 2024.11 - 2024.12
+      role: 项目开发者
+      description: |
+        使用 **Python-Flask** 作为后端，**Vue-TailwindCSS** 作为前端，实现了一个 **CA 证书机构**、一个 **银行系统** 和一个 **商城系统**。  
+        - **CA 机构**：用于保证银行系统和商城系统可信，实现基本的 **TLS** 协议。  
+        - **银行与商城**：采用自实现的 **OAuth** 机制绑定，支持 **2FA（邮件验证码）** 机制。  
+        - **安全测试**：防止 **订单重放攻击、SQL 注入攻击** 等安全问题。
+
+    - name: 评估 LLM 在网络安全攻防任务的 BenchMark
+      tags: 科研项目
+      date: 2025.02 - 今
+      role: 项目成员
+      description: |
+        收集了 **BuuOj** 靶场中所有题目作为数据集，并细化不同方向的题目考点（漏洞点）。  
+        - **评估指标**：利用题目难度 / 解题分数评估 **Deepseek、ChatGPT、QwQ** 等 LLM 在网络攻防中的表现。  
+        - **Agent 设计**：采用 **提前预输入 Prompt** 及 **上下文压缩**，确保评估的公平性。  
+        - **项目进展**：Agent 开发顺利，进一步优化评估流程。
+
+    - name: 针对卫星的 Fuzz 研究
+      tags: 科研项目
+      date: 2025.01 - 今
+      role: 项目成员
+      description: |
+        在 **清华大学Vul337课题组** 实习期间，参与针对 **卫星通信协议安全** 及 **固件安全** 的调研工作。  
+        - **研究内容**：调查 **卫星协议库** 及 **商用固件**，发现多个安全漏洞。  
+        - **实验室建设**：正在搭建测试环境，尝试对卫星通信协议层进行安全测试。  
+
+
+skill:
+  show: true
+  order: 5
+  title: 技能与证书
+
+  groups:
+    - name: 技能证书
+      item:
+        - 大学英语四级 (647分)
+        - 大学英语六级 (556分)
+        - 普通话二级甲等
+        - NISP 一级
+    - name: 编程语言
+      item:
+        - Python
+        - C++
+        - Java
+        - Rust
+    - name: 数据库 & 开发工具
+      item:
+        - MySQL & 数据库
+        - 中间件 (Kafka, Redis等)
+        - Git 版本管理
+        - Docker 容器管理
+    - name: 计算机专业基础
+      item:
+        - Linux 系统
+        - 数据结构与算法
+        - 计算机网络
+        - 并发编程（进程 & 线程）
+
+
+education:
+  show: true
+  order: 2
+  title: 教育背景
+
+  items:
+    - institution: 哈尔滨工业大学
+      link: 'https://hit.edu.cn'
+      date: 2022.08 - 2023.08
+      major: 航天与自动化专业集群
+
+    - institution: 哈尔滨工业大学
+      link: 'https://hit.edu.cn'
+      date: 2023.08 - 今
+      major: 网络空间安全
+
+  description: |
+      • **平均学分绩**: 92.42 **专业排名**: 3/60 **综合测评**: 97.42  
+      • **主要专业课程**： C 语言程序与设计 (**100**)、数据结构与算法 (**93**)、计算机组成原理 (**95.4**)、计算机系统 (**96.1**)、  
+      计算机网络 (**94.8**)、密码学原理 (**93**)、信息内容安全 (**97**)
+
+
+award:
+  show: true
+  order: 3
+  title: 竞赛获奖    
+  items:
+
+    - name: CCF·CSP认证
+      awarder: 200分
+      date: 2023.10
+
+    - name: 第十七届全国大学生信息安全竞赛创新实践能力赛决赛
+      awarder: 殿军（国家一等奖）
+      date: 2024.07
+      description: |
+        比赛分为两天，第一天主要负责AWDP·PWN方向题目，并负责赛题场景`可信平台`的编写，第二天主要负责渗透测试。
+
+    - name: 2024年“羊城杯”粤港澳大湾区网络安全大赛决赛
+      awarder: 季军
+      date: 2024.09
+
+    - name: 2024年黑龙江大学生网络安全竞赛
+      awarder: 亚军
+      date: 2024.11
+
+    - name: 2024 年网鼎杯半决赛
+      awarder: 18/240(网鼎之星)
+      date: 2024.11
+    
+    - name: 2024 年 HITCTF
+      awarder: 殿军
+      date: 2024.11
+
+    - name: 2024国城杯网络安全挑战赛线下决赛
+      awarder: 三等奖
+      date: 2024.12
+
+    - name: 第二届长城杯暨CISCN天津分站赛
+      awarder: 亚军
+      date: 2025.03
+
+close: <strong>Sorry, my resume has been hidden.</strong>
