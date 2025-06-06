@@ -181,18 +181,12 @@ skill:
         - C++
         - Java
         - Rust
-    - name: 数据库 & 开发工具
+    - name: 数据库 & 技能基础
       item:
         - MySQL & 数据库
-        - 中间件 (Kafka, Redis等)
+        - Linux 系统
         - Git 版本管理
         - Docker 容器管理
-    - name: 计算机专业基础
-      item:
-        - Linux 系统
-        - 数据结构与算法
-        - 计算机网络
-        - 并发编程（进程 & 线程）
 
 
 education:
