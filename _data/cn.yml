@@ -146,21 +146,21 @@ project:
 
     - name: 评估 LLM 在网络安全攻防任务的 BenchMark
       tags: 科研项目
-      date: 2025.02 - 今
+      date: 2024.11 - 2025.04
       role: 项目成员
       description: |
         收集了 **BuuOj** 靶场中所有题目作为数据集，并细化不同方向的题目考点（漏洞点）。  
-        - **评估指标**：利用题目难度 / 解题分数评估 **Deepseek、ChatGPT、QwQ** 等 LLM 在网络攻防中的表现。  
+        - **评估指标**：利用题目难度 / 解题分数评估 **Deepseek、ChatGPT** 等 LLM 在网络攻防中的表现。  
         - **Agent 设计**：采用 **提前预输入 Prompt** 及 **上下文压缩**，确保评估的公平性。  
 
     - name: 针对卫星的 Fuzz 研究
       tags: 科研项目
-      date: 2025.01 - 今
+      date: 2025.02 - 今
       role: 项目成员
       description: |
         在 **清华大学Vul337课题组** 实习期间，参与针对 **卫星通信协议安全** 及 **固件安全** 的调研工作。  
-        - **研究内容**：调查 **卫星协议库** 及 **商用固件**，发现多个安全漏洞。  
-        - **实验室建设**：正在搭建测试环境，尝试对卫星通信协议层进行安全测试。  
+        - 调查 **卫星协议库** 及 **商用固件**。
+        - 调研无人设备通信协议模糊测试现状,并撰写综述,投稿于《兵工学报》。
 
 
 skill:
@@ -175,12 +175,13 @@ skill:
         - 大学英语六级 (556分)
         - 普通话二级甲等
         - NISP 一级
+        - NISP 二级
     - name: 编程语言
       item:
         - Python
         - C++
         - Java
-        - Rust
+        - Golang
     - name: 数据库 & 技能基础
       item:
         - MySQL & 数据库
@@ -261,10 +262,6 @@ award:
     - name: 2024年黑龙江大学生网络安全竞赛
       awarder: 亚军
       date: 2024.11
-
-    - name: 2024 年网鼎杯半决赛
-      awarder: 18/240(网鼎之星)
-      date: 2024.11
     
     - name: 2024 年 HITCTF
       awarder: 殿军
@@ -285,5 +282,9 @@ award:
     - name: 2025数字中国创新大赛移动互联网安全积分争夺赛
       awarder: 铜奖
       date: 2025.04
+
+    - name: 第18届全国大学生软件创新大赛软件系统安全赛全国总决赛"攻防赛"
+      awarder: 国家二等奖
+      date: 2025.05
 
 close: <strong>Sorry, my resume has been hidden.</strong>
