@@ -6,7 +6,7 @@ basic:
   name: 冯镜维                      # name
   title: 网络安全         # job title 
   avatar:
-    show: true                       # show or hide avatar
+    show: false                       # show or hide avatar
     path: /assets/images/profile.jpg # file path or link to your avatar
 
 contact:
@@ -100,10 +100,9 @@ profile:
   order: 7
   title: 个人陈述
   description: |
-    本人是校 Lilac 战队成员，参与国内多场知名CTF赛事和护网测试行动。主要方向为 Pwn & Reverse, 主
-    要编程语言为 Python & C++。擅长网络与计算机系统相关领域。自去年起为学校网络中心挖掘校内漏洞，并维护部分网站。能够熟练使用MYSQL等数据库和其他中间件，熟悉使用Git作为版本工具、团队代码开发合作。爱好广泛，学理论基础扎实，做事
-    严谨认真，乐于学习新知，对知识和技术充满热情，富有团队合作精神与组织能力，品行端正有爱心，
-    对于二进制及有关计算机系统安全方向尤为感兴趣。
+    本人是校 Lilac 战队成员，参与国内多场知名CTF赛事和护网测试行动。主要方向为二进制和取证分析, 主
+    要编程语言为 Python & C++。擅长网络与计算机系统相关领域。自去年起为学校网络中心挖掘校内漏洞，并维护部分网站。能够熟练使用MYSQL等数据库和其他中间件，能够熟悉使用Git作为版本工具、团队代码开发合作。爱好广泛，学理论基础扎实，做事
+    严谨认真，乐于学习新知，对知识和技术充满热情，富有团队合作精神与组织能力，目前正在探索人工智能，特别是LLM在安全领域的自动化分析相关研究。
   
 
 project:
@@ -112,37 +111,6 @@ project:
   title: 项目经历
 
   items:
-    - name: 哈工大大一年度项目“基于树莓派的智能分拣机械臂”
-      tags: 一等奖
-      date: 2022.08 - 2023.08
-      role: 项目主要负责人
-      description: |
-        在大一入学时开始进行的大一年度项目，主要负责 Python-OpenCV 视觉识别代码编写。
-
-    - name: 数据驱动的轨道车巡检系统
-      tags: 二等奖
-      date: 2023.08 - 2024.04
-      role: 项目成员
-      description: |
-        在项目过程中了解并掌握了前后端开发基本逻辑和 PyTorch 框架的使用方法。  
-        采用 LSTM 网络和 GRU 集成学习，对仓库存储 RGV 轨道车的 IMU 数据进行分析，以确保生产环境安全。
-
-    - name: 基于四旋翼无人机的户外巡检系统
-      tags: 国家级大学生创新训练项目
-      date: 2023.08 - 2024.10
-      role: 项目主要负责人
-      description: |
-        负责机载电脑 JetsonNano 的 ROS1 系统及 SLAM 算法维护，并负责无人机通信模块的设计。
-
-    - name: 可信在线二手交易平台
-      tags: 专业优秀实践项目
-      date: 2024.11 - 2024.12
-      role: 项目开发者
-      description: |
-        使用 **Python-Flask** 作为后端，**Vue-TailwindCSS** 作为前端，实现了一个 **CA 证书机构**、一个 **银行系统** 和一个 **商城系统**。  
-        - **CA 机构**：用于保证银行系统和商城系统可信，实现基本的 **TLS** 协议。  
-        - **银行与商城**：采用自实现的 **OAuth** 机制绑定，支持 **2FA（邮件验证码）** 机制。  
-        - **安全测试**：防止 **订单重放攻击、SQL 注入攻击** 等安全问题。
 
     - name: 评估 LLM 在网络安全攻防任务的 BenchMark
       tags: 科研项目
@@ -153,15 +121,34 @@ project:
         - **评估指标**：利用题目难度 / 解题分数评估 **Deepseek、ChatGPT** 等 LLM 在网络攻防中的表现。  
         - **Agent 设计**：采用 **提前预输入 Prompt** 及 **上下文压缩**，确保评估的公平性。  
 
-    - name: 针对卫星的 Fuzz 研究
+    - name: 针对IoT设备的协议模糊测试研究
       tags: 科研项目
-      date: 2025.02 - 今
+      date: 2025.02 - 2025.06
       role: 项目成员
       description: |
         在 **清华大学Vul337课题组** 实习期间，参与针对 **卫星通信协议安全** 及 **固件安全** 的调研工作。  
         - 调查 **卫星协议库** 及 **商用固件**。
         - 调研无人设备通信协议模糊测试现状,并撰写综述,投稿于《兵工学报》。
 
+    - name: LLM驱动的漏洞分析项目
+      tags: 竞赛项目
+      date: 2025.09 - 今
+      role: 项目负责人
+      description: |
+        竞赛驱动，面向强网杯AI智能分析子赛道，根据比赛要求，开发了一个以项目源码和CVE信息为输入、输出漏洞的变量传播污点路径和CodeQL查询规则的系统，并获得了线上初赛和线下决赛的冠军。后续计划以该项目作为基础投稿论文。
+
+    - name: 多Agent协同的开源项目漏洞智能化辅助验证技术
+      tags: 科研项目
+      date: 2025.10 - 今
+      role: 项目负责人
+      description: |
+        研究基于多智能体框架的安全漏洞智能化辅助验证及规范化 POC 代码生成
+          1. 基于 LLM（包括：开源 LLM 本地部署、公共 LLM API 接口）结合知识图谱 RAG 的开源项目
+          安全漏洞分析与测试场景部署智能体
+          2. 基于 LLM 结合多语言 POC 样本的漏洞规范化 POC 代码生成智能体
+          3. 基于 LLM 的漏洞模板化 POC 验证测试智能体
+          4. 基于 LLM 结合漏洞测试场景多轮交互的漏洞 POC 代码调试优化智能体
+          项目选用常见的开源项目作为分析对象，如Log4j，Flask，Tomcat，libjepg等
 
 skill:
   show: true
@@ -198,13 +185,13 @@ education:
   items:
     - institution: 哈尔滨工业大学
       link: 'https://hit.edu.cn'
-      date: 2022.08 - 2023.08
-      major: 航天与自动化专业集群
-
-    - institution: 哈尔滨工业大学
-      link: 'https://hit.edu.cn'
-      date: 2023.08 - 今
+      date: 2022.08 - 2026.06
       major: 网络空间安全学院
+
+    - institution: 清华大学
+      link: 'https://www.tsinghua.edu.cn/'
+      date: 2026.08 - 2028.06
+      major: 网络科学与网络空间研究院
 
   description: |
       • **平均学分绩**: 92.42  **综合测评**: 97.42 **专业排名**: 1/59
@@ -245,15 +232,13 @@ award:
   title: 竞赛获奖    
   items:
 
-    - name: CCF·CSP认证
-      awarder: 200分
-      date: 2023.10
-
     - name: 第十七届全国大学生信息安全竞赛创新实践能力赛决赛
       awarder: 殿军（国家一等奖）
       date: 2024.07
-      description: |
-        比赛分为两天，第一天主要负责AWDP·PWN方向题目，并负责赛题场景可信平台的编写，第二天主要负责渗透测试。
+
+    - name: 第十八届全国大学生信息安全竞赛创新实践能力赛决赛
+      awarder: 殿军（国家一等奖）
+      date: 2025.07
 
     - name: 2024年“羊城杯”粤港澳大湾区网络安全大赛决赛
       awarder: 季军
@@ -266,25 +251,16 @@ award:
     - name: 2024 年 HITCTF
       awarder: 殿军
       date: 2024.11
-
-    - name: 2024国城杯网络安全挑战赛线下决赛
-      awarder: 三等奖
-      date: 2024.12
-
-    - name: 第二届长城杯暨CISCN天津分站赛
-      awarder: 亚军
-      date: 2025.03
     
     - name: 2025数字中国创新大赛数据安全积分争夺赛
       awarder: 冠军
-      date: 2025.04
-
-    - name: 2025数字中国创新大赛移动互联网安全积分争夺赛
-      awarder: 铜奖
       date: 2025.04
 
     - name: 第18届全国大学生软件创新大赛软件系统安全赛全国总决赛"攻防赛"
       awarder: 国家二等奖
       date: 2025.05
 
-close: <strong>Sorry, my resume has been hidden.</strong>
+    - name: 第九届“强网杯”全国网络安全挑战赛行业领域专项赛漏洞智能分析赛道
+      awarder: 冠军
+      date: 2025.11
+
