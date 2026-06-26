@@ -11,9 +11,8 @@ basic:
 
 contact:
   location: Harbin, China  # location, text or markdown link syntax
-  email: 2022111915@stu.hit.edu.cn     # email address
+  email: empire258700@gmail.com     # email address
   phone: +86-130-0973-0974  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
-  website: zephyr369.online     # site link without schema, like example.com, will automatically prepend "https://"
            # gender or pronoun
   birthday:      2004.04           # birthday
 
@@ -114,10 +113,10 @@ project:
 
     - name: 评估 LLM 在网络安全攻防任务的 BenchMark
       tags: 科研项目
-      date: 2024.11 - 2025.04
+      date: 2023.11 - 2024.04
       role: 项目成员
       description: |
-        收集了 **BuuOj** 靶场中所有题目作为数据集，并细化不同方向的题目考点（漏洞点）。  
+        收集国内外CTF题目作为数据集，并细化不同方向的题目考点（漏洞点）。  
         - **评估指标**：利用题目难度 / 解题分数评估 **Deepseek、ChatGPT** 等 LLM 在网络攻防中的表现。  
         - **Agent 设计**：采用 **提前预输入 Prompt** 及 **上下文压缩**，确保评估的公平性。  
 
@@ -128,7 +127,6 @@ project:
       description: |
         在 **清华大学Vul337课题组** 实习期间，参与针对 **卫星通信协议安全** 及 **固件安全** 的调研工作。  
         - 调查 **卫星协议库** 及 **商用固件**。
-        - 调研无人设备通信协议模糊测试现状,并撰写综述,投稿于《兵工学报》。
 
     - name: LLM驱动的漏洞分析项目
       tags: 竞赛项目
@@ -149,6 +147,13 @@ project:
           3. 基于 LLM 的漏洞模板化 POC 验证测试智能体
           4. 基于 LLM 结合漏洞测试场景多轮交互的漏洞 POC 代码调试优化智能体
           项目选用常见的开源项目作为分析对象，如Log4j，Flask，Tomcat，libjepg等
+
+    - name: 字节跳动
+      tags: 抖音研发-攻防蓝军
+      date: 2026.04 - 今
+      role: 实习
+      description: |
+        主要负责构建AI安全评估自动化组件，包括针对Agent安全评估、内容安全评估的自动化系统，以及威胁情报和未知风险的收集、风险样本数据泛化。
 
 skill:
   show: true
