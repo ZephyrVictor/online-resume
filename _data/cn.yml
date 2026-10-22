@@ -10,7 +10,7 @@ basic:
     path: /assets/images/profile.jpg # file path or link to your avatar
 
 contact:
-  location: Harbin, China  # location, text or markdown link syntax
+  location: Beijing, China  # location, text or markdown link syntax
   email: empire258700@gmail.com     # email address
   phone: +86-130-0973-0974  # phone number, the format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
            # gender or pronoun
@@ -120,14 +120,14 @@ project:
         - **评估指标**：利用题目难度 / 解题分数评估 **Deepseek、ChatGPT** 等 LLM 在网络攻防中的表现。  
         - **Agent 设计**：采用 **提前预输入 Prompt** 及 **上下文压缩**，确保评估的公平性。  
 
-    - name: 针对IoT设备的协议模糊测试研究
-      tags: 科研项目
-      date: 2025.02 - 2025.06
+    - name: 面向网络设备的漏洞挖掘与分析系统
+      tags: 工程项目
+      date: 2026.07 - 今
       role: 项目成员
       description: |
-        在 **清华大学Vul337课题组** 实习期间，参与针对 **卫星通信协议安全** 及 **固件安全** 的调研工作。  
-        - 调查 **卫星协议库** 及 **商用固件**。
-        - 针对无人机协议进行分析，并设计模糊测试方案。
+        实验室项目，基于可配置agent编排框架，面向自有/授权固件上完成多厂商实战漏洞挖掘和验证流程，
+          - 鉴于SOTA LLM的自主能力，探索Agent在任务自主拆解上的可能性。
+          - 探索长期记忆在漏洞审计中的应用，尝试将漏洞挖掘过程中的上下文信息进行提炼，并放入长期记忆存储，以便在后续审计中找到相同范式的漏洞。
 
     - name: LLM驱动的漏洞分析项目
       tags: 竞赛项目
@@ -138,7 +138,7 @@ project:
 
     - name: 多Agent协同的开源项目漏洞智能化辅助验证技术
       tags: 科研项目
-      date: 2025.10 - 2026.05
+      date: 2025.10 - 2026.09
       role: 项目负责人
       description: |
         研究基于多智能体框架的安全漏洞智能化辅助验证及规范化 POC 代码生成
@@ -154,7 +154,10 @@ project:
       date: 2026.04 - 今
       role: 实习
       description: |
-        主要负责构建AI安全评估自动化组件，包括针对Agent安全评估、内容安全评估的自动化系统，以及威胁情报和未知风险的收集、风险样本数据泛化。
+        - 测评抖音业务线中涉及LLM的功能，评估安全水位。范畴为沙箱逃逸、提示词注入、数据泄漏等Agent安全问题和Jailbreak等内容安全问题。
+        - 参与业务中的数据分析任务，评估用户请求的真实意图并进行分类。
+        - 负责情报汇总和未知风险发现，结合蓝军攻防经验探索自动化评测，维护多种攻击手法和高质量数据集。
+        - 资产测绘和评估，对抖音业务线中的AI资产进行测绘和安全水位评估，梳理Agent Harness架构，分析潜在安全风险。
 
 skill:
   show: true
@@ -175,7 +178,7 @@ skill:
         - C++
         - Java
         - Golang
-    - name: 数据库 & 技能基础
+    - name: 技能基础
       item:
         - MySQL & 数据库
         - Linux 系统
@@ -197,14 +200,7 @@ education:
     - institution: 清华大学
       link: 'https://www.tsinghua.edu.cn/'
       date: 2026.08 - 2028.06
-      major: 网络科学与网络空间研究院
-
-  description: |
-      • **平均学分绩**: 92.42  **综合测评**: 97.42 **专业排名**: 1/59
-      • **主要专业课程**： C 语言程序与设计 (**100**)、数据结构与算法 (**93**)、计算机组成原理 (**95.4**)、计算机系统 (**96.1**)、  
-      计算机网络 (**94.8**)、密码学原理 (**93**)、信息内容安全 (**97**)
-      
-    
+      major: 网络科学与网络空间研究院    
 
 certificate:
   show: true
@@ -239,24 +235,16 @@ award:
   items:
 
     - name: 第十七届全国大学生信息安全竞赛创新实践能力赛决赛
-      awarder: 殿军（国家一等奖）
+      awarder: 第四名（国家一等奖）
       date: 2024.07
 
     - name: 第十八届全国大学生信息安全竞赛创新实践能力赛决赛
-      awarder: 殿军（国家一等奖）
+      awarder: 第四名（国家一等奖）
       date: 2025.07
 
     - name: 2024年“羊城杯”粤港澳大湾区网络安全大赛决赛
       awarder: 季军
       date: 2024.09
-
-    - name: 2024年黑龙江大学生网络安全竞赛
-      awarder: 亚军
-      date: 2024.11
-    
-    - name: 2024 年 HITCTF
-      awarder: 殿军
-      date: 2024.11
     
     - name: 2025数字中国创新大赛数据安全积分争夺赛
       awarder: 冠军
