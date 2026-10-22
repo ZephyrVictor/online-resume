@@ -150,7 +150,7 @@ project:
           项目选用常见的开源项目作为分析对象，如Log4j，Flask，Tomcat，libjepg等
 
     - name: 字节跳动
-      tags: 抖音研发-攻防蓝军
+      tags: 抖音研发-攻防蓝军-实习
       date: 2026.04 - 今
       role: 实习
       description: |
